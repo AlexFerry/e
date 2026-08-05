@@ -1,5 +1,5 @@
 {
   "pt": "Jornada de Avanço",
   "en": "Breakthrough Journey",
-  "evento": "(async function(){for(let level=1;level<=50;level++){netManager.send("dungeon.dungeon_battle_start_c2s",{type:16,level:level});await new Promise(r=>setTimeout(r,500));netManager.send("dungeon.dungeon_battle_result_c2s",{type:16,dungeon_id:level,result:0});await new Promise(r=>setTimeout(r,500));}})();"
+  "evento": "(async function(){for(let chapter=1;chapter<=50;chapter++){netManager.send("dungeon.dungeon_battle_start_c2s",{type:16, level:chapter});await new Promise(r=>setTimeout(r,500));netManager.send("dungeon.dungeon_battle_result_c2s",{type:16,dungeon_id:chapter,result:0});await new Promise(r=>setTimeout(r,500));}})();"
 }
