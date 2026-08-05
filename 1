@@ -1,5 +1,5 @@
 {
-  "pt": "Guarda da Capital",
-  "en": "Capital Guard",
-  "evento": "(async function(){for(let chapter=1;chapter<=7;chapter++){netManager.send('act.act_halloween_match_3_start_c2s',{act_type:5137,chapter_id:chapter});await new Promise(r=>setTimeout(r,500));netManager.send('act.act_halloween_match_3_result_c2s',{act_type:5148,chapter_id:chapter,result:1,step:1});await new Promise(r=>setTimeout(r,500));}})();"
+  "pt": "Jornada de Avanço",
+  "en": "Breakthrough Journey",
+  "evento": "!async function(){for(let level=1;level<=50;level++){netManager.send("dungeon.dungeon_battle_start_c2s",{type:16,level:level});await new Promise(r=>setTimeout(r,800));netManager.send("dungeon.dungeon_battle_result_c2s",{type:16,dungeon_id:level,result:0});await new Promise(r=>setTimeout(r,1200));}}();"
 }
